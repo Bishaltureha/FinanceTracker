@@ -19,7 +19,7 @@ import {
   SortOption,
   FilterOption,
 } from '../utils/types';
-import ExpenseCard from '../component/ExpenseCard';
+import ExpenseCard from '../components/ExpenseCard';
 import {width, height, font} from '../utils/responsive';
 const AllTransactionsScreen = () => {
   const navigation = useNavigation();

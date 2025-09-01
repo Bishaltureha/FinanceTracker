@@ -13,7 +13,7 @@ import {font, height, SCREEN_WIDTH, width} from '../utils/responsive';
 // import Container from '../assets/svg/container';
 import {Storage} from '../storage/storage';
 import {Expense} from '../utils/types';
-import ExpenseCard from '../component/ExpenseCard';
+import ExpenseCard from '../components/ExpenseCard';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import containerImage from '../assets/image/container.png';
 
