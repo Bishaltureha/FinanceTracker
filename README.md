@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="src/assets/svg/Logo.svg" alt="FinanceTracker Logo" width="120"/>
+</p>
+
+<h1 align="center">📊 FinanceTracker</h1>
+<p align="center">A simple and efficient React Native app to track your daily expenses and manage personal finances.</p>
+
+---
+
 # 📊 FinanceTracker
 
 A simple and efficient **React Native app** to track your daily expenses and manage personal finances.  
@@ -42,6 +51,21 @@ Built with a clean folder structure for scalability and maintainability.
 - ├── ios/ # Native iOS project files
 - ├── package.json # Project metadata & dependencies
 - └── README.md # Project documentation
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="Readme/OverView.png" alt="Home Screen" width="220"/>
+  <img src="Readme/AddExpense.png" alt="Add Expense Screen" width="220"/>
+  <img src="Readme/AllTransactions.png" alt="Summary Screen" width="220"/>
+  <img src="Readme/Chart.png" alt="Chart Screen" width="220"/>
+  <img src="Readme/Setting.png" alt="Settings Screen" width="220"/>
+  <img src="Readme/AddCategory.png" alt="Categories Screen" width="220"/>
+  <img src="Readme/DeleteCategory.png" alt="Delete Category" width="220"/>
+  <img src="Readme/ClearAllData.png" alt="Clear All Data" width="220"/>
+</p>
 
 ---
 
