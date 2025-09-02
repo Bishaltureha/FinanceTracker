@@ -127,6 +127,8 @@ const ChartScreen = () => {
         placeholder="Select Month"
         value={selectedMonth}
         onChange={item => setSelectedMonth(item.value)}
+        selectedTextStyle={styles.dropdownSelectedText}
+        itemTextStyle={styles.itemTextStyle}
       />
       <Dropdown
         style={[styles.dropdown, {flex: 1, marginLeft: width(8)}]}
@@ -136,6 +138,8 @@ const ChartScreen = () => {
         placeholder="Select Year"
         value={selectedYear}
         onChange={item => setSelectedYear(item.value)}
+        selectedTextStyle={styles.dropdownSelectedText}
+        itemTextStyle={styles.itemTextStyle}
       />
     </View>
   );
@@ -376,5 +380,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginBottom: height(12),
+  },
+  dropdownSelectedText: {
+    color: '#000000',
+    fontSize: font(16),
+  },
+  itemTextStyle: {
+    color: '#999999',
+    fontSize: 16,
   },
 });
